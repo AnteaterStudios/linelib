@@ -12,4 +12,5 @@
   <ItemGroup>
     <Compile Include="$(DependenciesDir)SDL2-CS\src\SDL2.cs" />
   </ItemGroup>
+
 </Project>
