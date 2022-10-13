@@ -1,5 +1,7 @@
-﻿namespace AnteaterStudios.Linelib;
-public class Class1
+﻿namespace AnteaterStudios.Linelib
 {
+    public class Class1
+    {
 
+    }
 }

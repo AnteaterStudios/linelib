@@ -1,9 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <DependenciesDir>$(ProjectDir)..\dependencies\</DependenciesDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="$(DependenciesDir)SDL2-CS\src\SDL2.cs" />
+  </ItemGroup>
 </Project>
