@@ -1,4 +1,4 @@
-﻿namespace Linelib;
+﻿namespace AnteaterStudios.Linelib;
 public class Class1
 {
 
