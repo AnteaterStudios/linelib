@@ -11,5 +11,9 @@
 
   <ItemGroup>
     <Compile Include="$(DependenciesDir)SDL2-CS\src\SDL2.cs" />
+    <Compile Include="$(DependenciesDir)SDL2-CS\src\SDL2_gfx.cs" />
+    <Compile Include="$(DependenciesDir)SDL2-CS\src\SDL2_image.cs" />
+    <Compile Include="$(DependenciesDir)SDL2-CS\src\SDL2_mixer.cs" />
+    <Compile Include="$(DependenciesDir)SDL2-CS\src\SDL2_ttf.cs" />
   </ItemGroup>
 </Project>
