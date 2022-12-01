@@ -1,20 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+  <ItemGroup>
+    <ProjectReference Include="$(DependenciesDir)SDL2-CS\SDL2-CS.Core.csproj" />
+  </ItemGroup>
+
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <PropertyGroup>
     <DependenciesDir>$(ProjectDir)..\dependencies\</DependenciesDir>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Include="$(DependenciesDir)SDL2-CS\src\SDL2.cs" />
-    <Compile Include="$(DependenciesDir)SDL2-CS\src\SDL2_gfx.cs" />
-    <Compile Include="$(DependenciesDir)SDL2-CS\src\SDL2_image.cs" />
-    <Compile Include="$(DependenciesDir)SDL2-CS\src\SDL2_mixer.cs" />
-    <Compile Include="$(DependenciesDir)SDL2-CS\src\SDL2_ttf.cs" />
-  </ItemGroup>
 
 </Project>
